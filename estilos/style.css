@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 *{
-    padding: 0%;
+    padding: 0px;
     margin: 0px;
 }
 
@@ -30,11 +30,12 @@ header{
 
 img#logo {
 width: 200px;
+position:relative;
 
 }
 
 nav{
-    position: fixed;
+    position: absolute;
     top: 7%;
     right: 0;
     padding: 10px;
@@ -50,28 +51,13 @@ nav > a:hover{
     text-decoration:underline;
 }
 
-div > img{
-    width: 500px;
-    left: 3.9%;
+section > div.img1 > img{
+    width: 650px;
+    left: 45%;
     position: relative;
     margin-top: 5px;
 }
 
-section >img#png1{
-width: 270px;
-position: relative;
-top: 8%;
-left: 7%;
-padding: 0px;
-}
-
-section > img{
-    width: 450px;
-    position: relative ;
-    top: 10%;
-    left: 60%;
-    margin-bottom: 30px;
-}
 
 section > h1{
     font-size: 50px;
@@ -93,6 +79,7 @@ position: absolute;
  left: 5%;
  width: 125px;
 }
+
 
 main{
     background-color: var(--cor1);
@@ -128,19 +115,13 @@ aside{
     margin-bottom: 40px;
     
 }
-aside > img{
-    width: 370px;
-    position: absolute;
-    left: 20%;
-    padding: 30px;
-    padding-top: 90px;
+aside > div.img2 > img{
+    width: 650px;
+    position: relative;
+    left: 10%;
+    padding-top: 5%;
 }
-aside > img#png2{
-    width: 250px;
-    position: absolute;
-    left: 9%;
-    padding-top: 340px;
-}
+
 
 
 aside > h2{
@@ -164,8 +145,7 @@ margin-top:250px ;
 aside > button{
     position: absolute;
     left: 60%;
-    margin-top: 380px;
-    width: 125px;
+    top: 240%;
 }
 
 button{
@@ -173,8 +153,11 @@ button{
     width: 70px;
     height: 40px;
     width: 125px;
-    border: 10px 10px 10px solid var(--cor3);
-    
+    border-style:solid;
+    border-color: #F0B686;
+    border-left: 2%;
+    border-top: 2%;  
+  
 }
 
 button > a{
@@ -186,8 +169,6 @@ button > a{
 form > button{
     padding: 0px;
 }
-
-
 
 h2{
     text-align: center;

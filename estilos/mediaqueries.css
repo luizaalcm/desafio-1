@@ -1,0 +1,190 @@
+@charset "UTF-8"; 
+
+ *{
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+    
+    :root{
+        --cor0:white;
+        --cor1: rgb(218, 216, 216);
+        --cor2: #ED8D3E;
+        --cor3: #F0B686;
+        --cor4:rgb(230, 130, 130);
+        --cor5:#BD7031;
+    
+    }
+
+/*MOBILE*/
+@media screen and (max-width:768) {
+    
+}
+
+/*TABLET*/
+@media screen and (min-width:768px) and (max-width: 1124px)
+{
+
+    body{
+        background-color: white;
+    }
+    
+    header{
+        background-color: var(--cor2);
+        color: white;
+        text-align: center;
+        padding: 7px;
+    }
+    
+    img#logo {
+    width: 200px;
+    position:relative;
+    
+    }
+    
+    nav{
+        position: absolute;
+        top: 7%;
+        right: 0;
+        padding: 10px;
+        padding-left: 10px;
+    }
+    nav > a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    }
+    
+    nav > a:hover{
+        text-decoration:underline;
+    }
+    
+    section > div.img1 > img{
+        width: 55px;
+        left: 45%;
+        position: relative;
+        margin-top: 5px;
+    }
+    
+    
+    section > h1{
+        font-size: 50px;
+        position: absolute;
+        top: 30%;
+        left:5%
+        
+    }
+    
+    section > p{
+        position: absolute;
+        top: 52.5%;
+        left: 5%;
+    }
+    
+    section > button{
+    position: absolute;
+     top: 65%;
+     left: 5%;
+     width: 125px;
+    }
+    
+    
+    main{
+        background-color: var(--cor1);
+        height: 300px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+    main > h2{
+        padding-top: 70px;
+    }
+    
+    main > p{
+        text-align: center;
+        padding: 10px;
+    }
+    
+    main > form{
+        text-align: center;
+    }
+    
+    form> input{
+    width: 170px;
+    height: 40px;
+    border: none;
+    color: var(--cor1);
+    margin-top: 10px;
+    
+    }
+    
+    
+    aside{
+        margin-bottom: 40px;
+        
+    }
+    aside > div.img2 > img{
+        width: 500px;
+        position: relative;
+        left: 10%;
+        padding-top: 5%;
+    }
+    
+    
+    
+    aside > h2{
+    position: absolute;
+     left: 60%;
+     margin-top: 50px;
+    
+    }
+    aside > p#a{
+    position: absolute;
+    left: 60%;
+    margin-top: 150px;
+    
+    }
+    aside > p#b{
+    position: absolute;
+    left: 60%;
+    margin-top:250px ;
+    }
+    
+    aside > button{
+        position: absolute;
+        left: 60%;
+        top: 240%;
+    }
+    
+    button{
+        background-color: coral;
+        width: 70px;
+        height: 40px;
+        width: 125px;
+        border-style:solid;
+        border-color: #F0B686;
+        border-left: 5%;
+        border-top: 5%;  
+      
+    }
+    
+    button > a{
+       text-decoration: none;  
+       color: black;
+       padding: 10px;
+    }
+    
+    form > button{
+        padding: 0px;
+    }
+    
+    h2{
+        text-align: center;
+    }
+    
+
+
+
+}
+
