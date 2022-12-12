@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-*{
-    padding: 0px;
-    margin: 0px;
-}
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
@@ -150,7 +146,6 @@ aside > button{
 
 button{
     background-color: coral;
-    width: 70px;
     height: 40px;
     width: 125px;
     border-style:solid;
